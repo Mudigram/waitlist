@@ -1,0 +1,32 @@
+.wrapper {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.stripContainer {
+  display: flex;
+  width: fit-content;
+  animation: scroll linear infinite;
+}
+
+.stripItem {
+  background-size: cover;
+  background-position: center;
+  margin-right: 10px;
+  transform-origin: center center;
+  transition: transform 0.3s ease-out;
+}
+
+.stripItem:hover {
+  transform: scale(1.05);
+}
+
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
