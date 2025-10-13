@@ -6,7 +6,7 @@ import PanoramicCarousel from "@/components/PanoramicView";
 
 
 const logo = {
-  src: '/images/logo.png',
+  src: '/Images/logo.png',
   alt: ' Logo ',
   width: 200,
   height: 200,
@@ -14,18 +14,18 @@ const logo = {
 }
 
 const carouselImages = [
-  { src: "/images/restview1.jpg", alt: "Restaurant view 1" },
-  { src: "/images/restview2.jpg", alt: "Restaurant view 2" },
-  { src: "/images/restview3.jpg", alt: "Restaurant view 3" },
-  { src: "/images/getstarted.jpg", alt: "Restaurant view 4" }
+  { src: "/Images/restview1.jpg", alt: "Restaurant view 1" },
+  { src: "/Images/restview2.jpg", alt: "Restaurant view 2" },
+  { src: "/Images/restview3.jpg", alt: "Restaurant view 3" },
+  { src: "/Images/getstarted.jpg", alt: "Restaurant view 4" }
 ];
 
 export default function Home() {
   return (
-    <div className="p-6 flex-1 bg-gray-100 h-full">
-      <div className="flex justify-end pr-4">
+    <div className="p-4 flex-1 bg-gray-100 h-full">
+      <div className="flex justify-end pr-8">
         <ModeToggle />
-        <Button variant={'default'} className="text-2xl font-medium cursor-pointer p-6 rounded-2xl">
+        <Button variant={'default'} className="text-xl font-bold cursor-pointer p-6 rounded-2xl">
           Join Watlist
         </Button>
       </div>
@@ -52,7 +52,7 @@ export default function Home() {
         <p className="text-lg pt-4 text-center ">
           Join us to be part of the final development stage.
         </p>
-        <div className="pt-8">
+        <div className="pt-4">
           <Popup />
         </div>
       </div>

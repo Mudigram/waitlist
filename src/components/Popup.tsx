@@ -12,7 +12,7 @@ export default function Popup() {
                 <Button
                     onClick={() => setActiveModal('waitlist')}
                     variant="default"
-                    className="text-3xl font-medium cursor-pointer p-8 rounded-3xl"
+                    className="text-xl font-bold cursor-pointer p-6 rounded-2xl"
                 >
                     Join Waitlist
                 </Button>
@@ -21,7 +21,7 @@ export default function Popup() {
                 <Button
                     onClick={() => setActiveModal('faq')}
                     variant="ghost"
-                    className="text-3xl font-medium cursor-pointer p-8 bg-gray-200 rounded-3xl"
+                    className="text-xl font-bold cursor-pointer p-6 bg-gray-300 rounded-2xl"
                 >
                     FAQs
                 </Button>
@@ -43,7 +43,7 @@ export default function Popup() {
                         {/* Close button */}
                         <button
                             onClick={() => setActiveModal(null)}
-                            className="absolute top-3 right-3 text-gray-500 hover:text-gray-800"
+                            className="absolute top-3 right-3 text-gray-500 hover:text-gray-800 cursor-pointer"
                         >
                             ✖
                         </button>

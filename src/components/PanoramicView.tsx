@@ -21,12 +21,12 @@ export default function PanoramicCarousel({ images }: PanoramicCarouselProps) {
             </div>
 
             {/* Top oval overlay */}
-            <div className="flex absolute -top-[17rem] left-1/2 -translate-x-1/2 justify-center items-center pointer-events-none">
+            <div className="flex absolute -top-[19rem] left-1/2 -translate-x-1/2 justify-center items-center pointer-events-none">
                 <div className="bg-gray-100 w-[120vw] h-[50vh] rounded-b-[100%]" />
             </div>
 
             {/* Bottom oval overlay */}
-            <div className="flex absolute -bottom-[17rem] left-1/2 -translate-x-1/2 justify-center items-center pointer-events-none">
+            <div className="flex absolute -bottom-[19rem] left-1/2 -translate-x-1/2 justify-center items-center pointer-events-none">
                 <div className="bg-gray-100 w-[120vw] h-[50vh] rounded-t-[100%]" />
             </div>
         </div>
